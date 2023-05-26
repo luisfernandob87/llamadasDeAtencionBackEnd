@@ -1,0 +1,71 @@
+{
+  "kind": "collectionType",
+  "collectionName": "llamadade_atencions",
+  "info": {
+    "singularName": "llamadade-atencion",
+    "pluralName": "llamadade-atencions",
+    "displayName": "llamadadeAtencion"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "creadoPor": {
+      "type": "string"
+    },
+    "empleado": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::empleado.empleado"
+    },
+    "departamento": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::departamento.departamento"
+    },
+    "puesto": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::puesto.puesto"
+    },
+    "grado": {
+      "type": "enumeration",
+      "enum": [
+        "Llamada de atención verbal",
+        "Llamada de atención escrita",
+        "Suspensión"
+      ]
+    },
+    "descripcion": {
+      "type": "string"
+    },
+    "fechaImplementacion": {
+      "type": "date"
+    },
+    "accionCorrectiva": {
+      "type": "string"
+    },
+    "compromiso": {
+      "type": "string"
+    },
+    "inicioCompromiso": {
+      "type": "date"
+    },
+    "finalCompromiso": {
+      "type": "date"
+    },
+    "firmaJefeInmediato": {
+      "type": "text"
+    },
+    "firmaRrhh": {
+      "type": "text"
+    },
+    "firmaColaborador": {
+      "type": "text"
+    },
+    "proximoGrado": {
+      "type": "string"
+    }
+  }
+}
