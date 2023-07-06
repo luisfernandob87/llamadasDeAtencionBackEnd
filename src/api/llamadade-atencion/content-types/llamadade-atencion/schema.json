@@ -4,7 +4,8 @@
   "info": {
     "singularName": "llamadade-atencion",
     "pluralName": "llamadade-atencions",
-    "displayName": "llamadadeAtencion"
+    "displayName": "llamadadeAtencion",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -66,6 +67,9 @@
     },
     "proximoGrado": {
       "type": "string"
+    },
+    "entradaTarde": {
+      "type": "time"
     }
   }
 }

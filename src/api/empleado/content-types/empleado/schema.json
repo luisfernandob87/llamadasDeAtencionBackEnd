@@ -4,7 +4,8 @@
   "info": {
     "singularName": "empleado",
     "pluralName": "empleados",
-    "displayName": "empleado"
+    "displayName": "empleado",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -17,6 +18,16 @@
     "estado": {
       "type": "boolean",
       "default": true
+    },
+    "departamento": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::departamento.departamento"
+    },
+    "cartera": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::cartera.cartera"
     }
   }
 }
