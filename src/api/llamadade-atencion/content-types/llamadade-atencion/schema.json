@@ -35,7 +35,8 @@
       "enum": [
         "Llamada de atención verbal",
         "Llamada de atención escrita",
-        "Suspensión"
+        "Suspensión",
+        "Llegada tarde"
       ]
     },
     "descripcion": {
