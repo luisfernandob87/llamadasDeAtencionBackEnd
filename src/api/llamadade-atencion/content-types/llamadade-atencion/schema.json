@@ -36,7 +36,8 @@
         "Llamada de atención verbal",
         "Llamada de atención escrita",
         "Suspensión",
-        "Llegada tarde"
+        "Llegada tarde",
+        "Descuento día y séptimo"
       ]
     },
     "descripcion": {
